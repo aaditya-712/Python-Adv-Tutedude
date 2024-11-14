@@ -1,0 +1,79 @@
+demodb=# create database student;
+CREATE DATABASE
+demodb=# \c student
+You are now connected to database "student" as user "postgres".
+student=#
+student=# CREATE TABLE students(name text, prn int, age int);
+CREATE TABLE
+student=# \d
+          List of relations
+ Schema |   Name   | Type  |  Owner
+--------+----------+-------+----------
+ public | students | table | postgres
+(1 row)
+
+
+student=# INSERT INTO students(name, prn, age) VALUES('Aaditya', 284, 20);
+INSERT 0 1
+student=# INSERT INTO students(name, prn, age) VALUES('Rushi', 285, 21);
+INSERT 0 1
+student=# SELECT * FROM students;
+  name   | prn | age
+---------+-----+-----
+ Aaditya | 284 |  20
+ Rushi   | 285 |  21
+(2 rows)
+
+
+student=# SELECT name FROM students;
+  name
+---------
+ Aaditya
+ Rushi
+(2 rows)
+
+
+student=# SELECT * FROM students WHERE age=20;
+  name   | prn | age
+---------+-----+-----
+ Aaditya | 284 |  20
+(1 row)
+
+
+student=# SELECT prn FROM students WHERE age=20;
+ prn
+-----
+ 284
+(1 row)
+
+
+student=# SELECT name FROM students WHERE age=20;
+  name
+---------
+ Aaditya
+(1 row)
+
+
+student=# SELECT * FROM students;
+  name   | prn | age
+---------+-----+-----
+ Aaditya | 284 |  20
+ Rushi   | 285 |  21
+(2 rows)
+
+
+student=#
+student=# TRUNCATE TABLE students;
+TRUNCATE TABLE
+student=# \d
+          List of relations
+ Schema |   Name   | Type  |  Owner
+--------+----------+-------+----------
+ public | students | table | postgres
+(1 row)
+
+
+student=# SELECT * FROM students;
+ name | prn | age
+------+-----+-----
+(0 rows)

@@ -1,0 +1,15 @@
+1. to create a database
+    postgres=# create database demodb;
+    CREATE DATABASE
+
+2. to see available databases in the directory
+    postgres=# \l
+
+3. to switch to available database
+    postgres=# \c demodb
+    You are now connected to database "demodb" as user "postgres".
+    demodb=#
+
+4. delete a database
+    demodb=# drop database test;
+    DROP DATABASE
