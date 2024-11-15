@@ -1,3 +1,6 @@
+
+===============================================
+
 1. Scientific Computing Libraries
     a. PANDAS
     b. NUMPY
@@ -11,6 +14,7 @@
     a. SCIKIT LEARN
     b. STATS MODELS
 
+================================================
 
 * IMPORTANT PROPERTIES
     - File Format
