@@ -1,0 +1,24 @@
+1. Scientific Computing Libraries
+    a. PANDAS
+    b. NUMPY
+    c. SCI-PY
+
+2. Visualization Libraries
+    a. MATPLOTLIB
+    b. SEABORN
+
+3. Alogorithmic Libraries
+    a. SCIKIT LEARN
+    b. STATS MODELS
+
+
+* IMPORTANT PROPERTIES
+    - File Format
+        .csv
+        .json
+        .hdf
+        .xlsx
+        ...
+    
+    - File Path
+        (C:/Desktop/My Files/mydata.csv)
