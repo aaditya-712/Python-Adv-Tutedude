@@ -1,0 +1,16 @@
+1. create a project
+    >django-admin startproject projectname
+
+2. to run the server
+    >python manage.py runserver
+
+3. to remove unapplied migrations
+    >python manage.py migrate
+
+4. to create a testapp
+    >python manage.py startapp testapp
+
+5. creating user and password to login as admin 
+    >python manage.py createsuperuser
+
+ 

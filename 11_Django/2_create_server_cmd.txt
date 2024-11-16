@@ -1,0 +1,7 @@
+->django-admin startproject demo
+
+->cd demo
+
+->python manage.py runserver
+
+*Quit the server with CTRL-BREAK
