@@ -1,10 +1,15 @@
+{% extends 'base.html' %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Results</title>
 </head>
 <body>
-$END$
+{% block content %}
+<h2>Total Marks Obtainted: {{total}} / 500</h2> <br>
+<h2>Percentage : {{percent}}%</h2>
+
+{% endblock %}
 </body>
 </html>

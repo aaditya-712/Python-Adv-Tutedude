@@ -1,10 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Home</title>-->
+<!--</head>-->
+<!--<body>-->
+{% block content %}
+
+<h1>Welcome to Percentage Calculator</h1>
+<h4>{{name}}</h4>
+<form action="calculate">
+    English : <input type="text" name="english"> <br><br>
+    Marathi : <input type="text" name="marathi"> <br><br>
+    Hindi : <input type="text" name="hindi"> <br><br>
+    Maths : <input type="text" name="maths"> <br><br>
+    Science : <input type="text" name="science"> <br><br>
+    <input type="submit">
+</form>
+
+{% endblock %}
+<!--</body>-->
+<!--</html>-->
