@@ -1,0 +1,7 @@
+step1: >python-admin startproject Design
+
+step2: >cd Design
+
+step3: >python manage.py migrate
+
+step4: >python manage.py startapp DTL
