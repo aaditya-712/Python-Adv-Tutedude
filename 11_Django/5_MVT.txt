@@ -1,0 +1,13 @@
+MVT (Model View Template)
+
+
+USER    --->    SERVER
+  page  <---    <---
+
+==================
+    Static page
+==================
+    1. Layout
+    2. Data
+    3. Logic
+==================
