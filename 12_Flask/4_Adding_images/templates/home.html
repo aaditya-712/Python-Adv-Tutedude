@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Pages</title>
+    <style>
+        /* Style for the container */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 100% of viewport height */
+            overflow: hidden; /* Prevents overflow */
+            margin: 0; /* Removes default margin */
+        }
+
+        /* Style for the image */
+        .container img {
+            width: 100%; /* Scale image to fit the width of the container */
+            height: 100%; /* Scale image to fit the height of the container */
+            object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+        }
+
+    </style>
 </head>
 <body>
 <h1> Welcome </h1>
-<img src="{{user_image}}">
+<div class="container">
+    <img src="{{user_image}}">
+</div>
 <a href="/second">Click to move to second page</a>
 </body>
 </html>

@@ -1,0 +1,24 @@
+Flask is a Python web framework that provides tools, libraries, and technologies for building web applications:
+
+Lightweight
+    Flask is a microframework that's simple and manageable, with only the essential components for web development.
+
+Extensible
+    Flask is designed to be highly customizable, with extensions that can add application features.
+
+Scalable
+    Flask can scale up to complex applications.
+
+Accessible
+    Flask is more accessible for new developers because you can build a web application quickly using only a single Python file.
+
+Flask is a good choice for:
+    Building a flexible and scalable web platform for clients to book and pay for rides or deliveries
+    Building interactive data visualization apps and dashboards
+
+Here are some other features of Flask:
+    It's a WSGI framework, which stands for Web Server Gateway Interface.
+    It relies on the Jinja2 template engine.
+    It's an out-of-the-box framework, meaning you can jump straight into it.
+
+The creator of Flask, Armin Ronacher, originally meant it to be an April Fool's joke. However, he realized that what he had been joking about could actually make it as a proper framework to build web applications.
