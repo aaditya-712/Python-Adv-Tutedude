@@ -12,6 +12,7 @@ web = Flask(__name__)
 def homepage():
     return render_template('register.html')
 
+
 # MAPPING
 @web.route("/confirmation", methods = ['POST', 'GET'])
 # INPUTS
