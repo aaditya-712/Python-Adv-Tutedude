@@ -1,0 +1,13 @@
+REST --> REpresentational State Transfer
+
+CLIENT --> SERVER
+      (http)
+
+Uses HTTP Request Methods (get, post)
+
+Pattern for making API's
+
+Example: Restaurant
+            We(client) -------> Kitchen(server)
+                     Waiter(API)
+
