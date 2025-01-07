@@ -1,0 +1,39 @@
+ASCII vs UNICODE
+
+ASCII
+1.  Supports 128 character (extended up to 256 character)
+2.  Uses 8 bits to represent a character
+3.  Requires less space
+4.  American Standard Code for Information Interchange
+
+
+UNICODE
+1.  Supports a wide range if characters
+2.  Uses 8 bit, 16 bit or 32 bit depending on the encoding type
+3.  Requires more space
+4.  Universal Character Set
+
+
+
+*   American Standard Code for Infomation Interchange
+
+    CHARACTER       ASCII VALUE
+1.  A - Z           65 - 90
+2.  a - z           97 - 122
+3.  0 - 9           48 - 57
+4.  special char    0 - 47, 58 - 64, 91 - 96, 123 - 127
+5.  \t              9
+6.  \n              10
+
+
+> Uppercase letters < Lowercase letters.
+> ord() gives the ASCIIcharacter.
+
+-------------------------------------------------------
+
+LENGTH for  
+> UTF-16 ==> fixed length (2 bytes)
+> UTF-32 ==> fixed length (4 bytes)
+> UTF-8  ==> 1 - 4 bytes
+
+

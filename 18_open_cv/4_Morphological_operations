@@ -1,0 +1,29 @@
+Morphological Operations
+
+    1.  Erosion
+        >   Removes the pixels on the foreground ojects
+            cv2.erode()
+    
+    2.  Dilation
+        >   Adds pixels
+            cv2.dilate()
+
+    3.  Opening
+        >   Erosion followed by Dilation
+            cv2.morphologyEx(img, cv2.MORPH_OPEN, kernel)
+    
+    4.  Closing
+        >   Dilation followed by Erosion
+            cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel)
+
+    5.  Morphological Gradient
+        >   Difference between Dilation and Erosion 
+            cv2.morphologyEx(img, cv2.MORPH_GRADIENT, kernel)
+    
+    6.  Top Hat
+        >   Difference between input image and opening of image
+            cv2.morphologyEx(img, cv2.MORPH_TOPHAT, kernel)
+
+    7.  Black Hat   
+        >   Difference between Closing of input image and the input image
+            cv2.morphologyEx(img, cv2.MORPH_BLACKHAT, kernel)

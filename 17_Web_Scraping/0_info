@@ -1,0 +1,7 @@
+WEB SCRAPING
+    Process of Extracting data from a website
+
+
+    RETRIVING DATA
+        1. Encode - converts the string unicode to bytes
+        2. Decode - converts the bytes unicode to string
